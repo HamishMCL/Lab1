@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void btnCalculate_Click(object sender, EventArgs e)
     {
-
+        
         if (Page.IsValid)
         {
 
@@ -37,7 +37,7 @@ public partial class _Default : System.Web.UI.Page
     private Decimal Calculate(Decimal operand1, string operator1, Decimal operand2)
     {
 
-
+        //What operation
         switch(operator1)
         {
             case "plus":
